@@ -1,3 +1,128 @@
+---insert editoras---
+INSERT INTO editora (nome_editora) VALUES
+('Tor Books'),
+('Orbit Books'),
+('Gollancz'),
+('Del Rey'),
+('DAW Books'),
+('Baen Books'),
+('Bantam Spectra'),
+('Ace Books'),
+('Harper Voyager'),
+('Pan Macmillan / Tor UK'),
+('Penguin Random House'),
+('Suma (Companhia das Letras)'),
+('Intrínseca'),
+('Rocco'),
+('DarkSide Books'),
+('Galera Record'),
+('Jambô Editora'),
+('HarperCollins Brasil'),
+('Editora Aleph'),
+('Companhia das Letras');
+
+---insert produtos---
+INSERT INTO produtos (nome, preco, isbn, id_editora) VALUES
+-- Editora 1
+('A Canção da Tempestade', '49.90', '9780000000011', 1),
+('Sombras do Norte', '59.90', '9780000000012', 1),
+('O Herdeiro do Fogo Antigo', '39.90', '9780000000013', 1),
+
+-- Editora 2
+('Reinos Partidos', '45.00', '9780000000021', 2),
+('Lâminas do Crepúsculo', '55.90', '9780000000022', 2),
+('O Eco das Montanhas', '62.90', '9780000000023', 2),
+
+-- Editora 3
+('Filhos da Névoa', '42.50', '9780000000031', 3),
+('O Último Oráculo', '58.90', '9780000000032', 3),
+('Portões de Aço', '35.90', '9780000000033', 3),
+
+-- Editora 4
+('O Jardim de Aço', '69.90', '9780000000041', 4),
+('Sombras de Vidro', '49.90', '9780000000042', 4),
+('A Torre da Chama Azul', '39.90', '9780000000043', 4),
+
+-- Editora 5
+('Os Caçadores do Vazio', '57.90', '9780000000051', 5),
+('Nômades do Infinito', '48.90', '9780000000052', 5),
+('A Cidade Entre Estrelas', '79.90', '9780000000053', 5),
+
+-- Editora 6
+('A Filha da Serpente', '44.90', '9780000000061', 6),
+('O Guardião das Runas', '52.00', '9780000000062', 6),
+('Ritos da Noite Sangrenta', '37.50', '9780000000063', 6),
+
+-- Editora 7
+('Eclipse Carmesim', '61.00', '9780000000071', 7),
+('Os Três Reis do Vento', '42.00', '9780000000072', 7),
+('O Labirinto das Marés', '33.90', '9780000000073', 7),
+
+-- Editora 8
+('O Canto das Mariposas', '46.90', '9780000000081', 8),
+('Chamas de Areia', '51.90', '9780000000082', 8),
+('A Dama do Inverno', '39.50', '9780000000083', 8),
+
+-- Editora 9
+('O Cajado Partido', '62.90', '9780000000091', 9),
+('O Círculo das Sombras', '47.90', '9780000000092', 9),
+('Guerreiros do Pó', '34.90', '9780000000093', 9),
+
+-- Editora 10
+('Ascensão de Ferro', '55.90', '9780000000101', 10),
+('O Vale dos Gritos', '45.90', '9780000000102', 10),
+('A Profecia de Âmbar', '32.90', '9780000000103', 10),
+
+-- Editora 11
+('O Rei do Crepúsculo', '68.90', '9780000000111', 11),
+('As Ilhas de Prata', '49.00', '9780000000112', 11),
+('O Último Arcanista', '61.90', '9780000000113', 11),
+
+-- Editora 12
+('O Espelho de Sangue', '44.90', '9780000000121', 12),
+('Colheita Sombria', '56.90', '9780000000122', 12),
+('Filhos da Lua Nova', '34.50', '9780000000123', 12),
+
+-- Editora 13
+('Os Sete Portais', '52.90', '9780000000131', 13),
+('A Estrada do Dragão', '63.90', '9780000000132', 13),
+('O Príncipe Exilado', '41.50', '9780000000133', 13),
+
+-- Editora 14
+('A Lenda do Guardião Negro', '47.00', '9780000000141', 14),
+('O Castelo das Vozes', '36.90', '9780000000142', 14),
+('As Correntes do Norte', '54.00', '9780000000143', 14),
+
+-- Editora 15
+('A Rosa Esquecida', '43.90', '9780000000151', 15),
+('Espadas da Aurora', '62.00', '9780000000152', 15),
+('O Mártir das Sombras', '39.90', '9780000000153', 15),
+
+-- Editora 16
+('O Guerreiro Dourado', '51.00', '9780000000161', 16),
+('Os filhos de Tarlon', '58.90', '9780000000162', 16),
+('A Noite Rubra', '33.90', '9780000000163', 16),
+
+-- Editora 17
+('O Caminho dos Mortos', '49.90', '9780000000171', 17),
+('Coroa de Ossos', '59.90', '9780000000172', 17),
+('Cidade Afogada', '38.90', '9780000000173', 17),
+
+-- Editora 18
+('Reino das Marés', '45.90', '9780000000181', 18),
+('A Guardiã do Norte', '57.90', '9780000000182', 18),
+('O Livro dos Sussurros', '35.00', '9780000000183', 18),
+
+-- Editora 19
+('O Mago do Deserto', '64.90', '9780000000191', 19),
+('A Rainha do Poente', '52.90', '9780000000192', 19),
+('Sombras sobre Adalor', '39.90', '9780000000193', 19),
+
+-- Editora 20
+('A Estrela de Prata', '48.90', '9780000000201', 20),
+('As Filhas do Relâmpago', '61.90', '9780000000202', 20),
+('O Suspiro do Vento', '34.90', '9780000000203', 20);
+
 ---insert clientes---
 INSERT INTO cliente (nome, telefone, cpf) VALUES
 ('Ana Paula Mendes', '(11)91234-0001', '12345678901'),
@@ -38,20 +163,7 @@ INSERT INTO vendedor (nome_vendedor, cpf_vendedor) VALUES
 ('Renata Martins Cardoso', '98765432106'),
 ('Thiago Moreira Campos', '98765432107');
 
----insert pedidos---
-INSERT INTO pedidos (id_cliente, id_vendedor, preco_total) VALUES
-(5, 2, 142),     
-(12, 4, 189),    
-(3, 1, 75),      
-(21, 6, 210),    
-(8, 3, 98),      
-(14, 7, 165),    
-(27, 5, 120),    
-(19, 2, 355),    
-(2, 4, 84),     
-(10, 1, 265);
-    
---- insert pedido---
+--- insert pedidos --- 
 INSERT INTO pedidos (preco_total, id_cliente, id_vendedor, data_pedido) VALUES
 (8700, 5, 2, '2025-02-11'),
 (12900, 12, 1, '2025-02-11'),
